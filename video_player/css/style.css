@@ -1,0 +1,97 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(56, 56, 56);
+    margin: 50px 0 0 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.pb-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: black;
+    padding: 20px 0 55px 0;
+    margin: 0;
+}
+
+.pb-div div {
+    position: absolute;
+}
+
+.pb-div button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 30px;
+    background: rgb(172, 172, 172);
+    border: 1.5px solid rgb(172, 172, 172);
+    transition: .2s;
+}
+
+.pb-div button:hover {
+    cursor: pointer;
+    background: rgb(216, 216, 216);
+    border: 1.5px solid grey;
+    transition: .5s;
+}
+
+.pb-div div:nth-of-type(1) {
+    margin: 30px 0 0 -450px;
+}
+
+.pb-div div:nth-of-type(2) {
+    margin: 30px 0 0 -380px;
+}
+
+.pb-div div:nth-of-type(3) {
+    margin: 30px 0 0 -310px;
+}
+
+.pb-div div:nth-of-type(4) {
+    margin: 30px 0 0 -70px;
+}
+
+.pb-div div:nth-of-type(5) {
+    margin: 30px 0 0 0;
+}
+
+.pb-div div:nth-of-type(6) {
+    margin: 30px 0 0 70px;
+}
+
+.pb-div div:nth-of-type(7) {
+    margin: 30px 0 0 358px;
+}
+
+#volume {
+    width: 138%;
+}
+
+#progress {
+    width: 85.1%;
+    background: red;
+}
+
+.timer {
+    position: absolute;
+    color: white;
+    margin: 33px 0 0 -212px;
+}
+
+.video-length {
+    position: absolute;
+    color: white;
+    margin: 33px 0 0 -164px;
+}

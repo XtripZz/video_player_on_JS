@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <video width=100% poster="" id="video-player">
+            <source src="this_i_love.mp4" type="video/mp4">
+        </video>
+
+        <div class="pb-div">
+            <div><button id="play"><img src="img/play.png" width=20 alt=""></button></div>
+            <div><button id="pause"><img src="img/pause.png" width=20 alt=""></button></div>
+            <div><button id="stop"><img src="img/stop.png" width=20 alt=""></button></div>
+            <div><button id="speed-down"><img src="img/rewind-arrows.png" width=20 alt=""></button></div>
+            <div><button id="speed-normal"><img src="img/play-button.png" width=20 alt=""></button></div>
+            <div><button id="speed-up"><img src="img/fast-forward-button.png" width=20 alt=""></button></div>
+            <div><input type="range" id="volume" value=80 min=0 max=100></div>
+            <progress id="progress" max=100 value=0></progress>
+            <div class="timer">00:00</div>
+            <div class="video-length">/ 01:33</div>
+            </div>
+
+        </div>
+
+        <script src="js/script.js"></script>
+</body>
+
+</html>
